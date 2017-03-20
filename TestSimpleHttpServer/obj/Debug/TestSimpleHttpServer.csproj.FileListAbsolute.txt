@@ -1,0 +1,11 @@
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.exe.config
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.exe
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.pdb
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.exe
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.pdb
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.dll
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\log4net.dll
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\log4net.xml
