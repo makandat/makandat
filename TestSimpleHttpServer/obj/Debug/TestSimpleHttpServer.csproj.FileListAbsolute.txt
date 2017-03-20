@@ -9,3 +9,13 @@ C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\log4net
 C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
 C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
 C:\workspace\project2017\SimpleHttpServer\TestSimpleHttpServer\bin\Debug\log4net.xml
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.exe.config
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.exe
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\TestSimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\log4net.dll
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\SimpleHttpServer.dll.config
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\bin\Debug\log4net.xml
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.csprojResolveAssemblyReference.cache
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.exe
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\obj\Debug\TestSimpleHttpServer.pdb

@@ -1,4 +1,5 @@
-﻿using SimpleHttpServer.Models;
+﻿using System;
+using SimpleHttpServer.Models;
 using SimpleHttpServer.RouteHandlers;
 using System.Collections.Generic;
 
@@ -6,6 +7,9 @@ namespace TestSimpleHttpServer
 {
     static class Routes
     {
+        /// <summary>
+        /// ルートの定義
+        /// </summary>
         public static List<Route> GET
         {
             get
@@ -20,7 +24,8 @@ namespace TestSimpleHttpServer
                     },
                     new Route()
                     {
-                        Callable = new FileSystemRouteHandler() { BasePath = @"C:\Users\Barend.Erasmus\Desktop\Test"}.Handle,
+                        // http://localhost:5411/Sattic/test.html
+                        Callable = new FileSystemRouteHandler() { BasePath = @"C:\workspace\project2017\SimpleHttpServer"}.Handle,
                         UrlRegex = "^\\/Static\\/(.*)$",
                         Method = "GET"
                     }
@@ -29,11 +34,16 @@ namespace TestSimpleHttpServer
             }
         }
 
+        /// <summary>
+        /// ホーム (http://localhost:5411)
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         private static HttpResponse HomeIndex(HttpRequest request)
         {
             return new HttpResponse()
             {
-                ContentAsUTF8 = "Hello",
+                ContentAsUTF8 = "Hello " + DateTime.Now.ToString("HH:mm:ss"),
                 ReasonPhrase = "OK",
                 StatusCode = "200"
             };
