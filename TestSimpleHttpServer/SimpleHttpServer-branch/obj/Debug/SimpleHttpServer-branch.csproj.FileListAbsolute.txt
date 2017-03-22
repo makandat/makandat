@@ -1,0 +1,8 @@
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\bin\Debug\SimpleHttpServer.dll.config
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\bin\Debug\SimpleHttpServer.dll
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\bin\Debug\SimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\obj\Debug\SimpleHttpServer.Properties.Resources.resources
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\obj\Debug\SimpleHttpServer-branch.csproj.GenerateResource.Cache
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\obj\Debug\SimpleHttpServer.dll
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\obj\Debug\SimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\SimpleHttpServer-branch\obj\Debug\SimpleHttpServer-branch.csprojResolveAssemblyReference.cache

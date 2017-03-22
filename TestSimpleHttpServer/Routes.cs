@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace TestSimpleHttpServer
 {
-    static class Routes
+    public static class Routes
     {
         /// <summary>
         /// ルートの定義
@@ -24,7 +24,7 @@ namespace TestSimpleHttpServer
                     },
                     new Route()
                     {
-                        // http://localhost:5411/Sattic/test.html
+                        // http://localhost:5411/Satic/test.html
                         Callable = new FileSystemRouteHandler() { BasePath = @"C:\workspace\project2017\SimpleHttpServer"}.Handle,
                         UrlRegex = "^\\/Static\\/(.*)$",
                         Method = "GET"

@@ -1,0 +1,11 @@
+C:\workspace\GitHub\makandat\HttmpServer1\obj\Debug\HttmpServer1.csprojResolveAssemblyReference.cache
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\HttmpServer1.exe.config
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\HttmpServer1.exe
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\HttmpServer1.pdb
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\SimpleHttpServer.dll
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\log4net.dll
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\SimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\SimpleHttpServer.dll.config
+C:\workspace\GitHub\makandat\HttmpServer1\bin\Debug\log4net.xml
+C:\workspace\GitHub\makandat\HttmpServer1\obj\Debug\HttmpServer1.exe
+C:\workspace\GitHub\makandat\HttmpServer1\obj\Debug\HttmpServer1.pdb

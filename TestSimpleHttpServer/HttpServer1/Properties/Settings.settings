@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HttmpServer1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ViewPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\workspace\GitHub\makandat\TestSimpleHttpServer\www\view</Value>
+    </Setting>
+    <Setting Name="StaticPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\workspace\GitHub\makandat\TestSimpleHttpServer\www\html</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

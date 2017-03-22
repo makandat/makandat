@@ -1,0 +1,9 @@
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\obj\Debug\HttpServer1.csprojResolveAssemblyReference.cache
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\obj\Debug\HttmpServer1.exe
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\obj\Debug\HttmpServer1.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\HttmpServer1.exe.config
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\HttmpServer1.exe
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\HttmpServer1.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\SimpleHttpServer.dll
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\SimpleHttpServer.pdb
+C:\workspace\GitHub\makandat\TestSimpleHttpServer\HttpServer1\bin\Debug\SimpleHttpServer.dll.config
