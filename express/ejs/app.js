@@ -4,6 +4,7 @@
 // モジュールをロード。
 var express = require("express");
 var fs = require("fs");
+var path = require("path");
 var mysql = require("mysql");
 
 // 変数 app に express オブジェクトを割り当てる。
@@ -17,12 +18,14 @@ const Version = "1.0";
 app.engine('ejs', require('ejs').__express);
 // テンプレートエンジンが ejs であることを指定 (render()で拡張子の指定が不要になる)
 app.set("view engine", "ejs");
-// 静的ファイルの場所を指定。
+// 静的ファイルの場所を指定。(オプション)
 app.use(express.static('static'));
-// フォームパラメータを JSON 形式にするミドルウェアを使用。
+// テンプレートの場所を再定義。(オプション)
+app.set("views", path.join(__dirname, "templates"));
+// フォームパラメータを JSON 形式にするミドルウェアを使用。(フォームを使うとき必須)
 app.use(express.json());
-// フォームパラメータの HTTP 形式から JavaScript 形式にするミドルウェアを使用。
-app.use(express.urlencoded({ extended: true }));
+// フォームパラメータの HTTP 形式から JavaScript 形式にするミドルウェアを使用。(フォームを使うとき必須)
+app.use(express.urlencoded({extended: true}));
 
 
 
