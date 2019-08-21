@@ -1,0 +1,33 @@
+doctype html
+html
+  meta(charset="utf-8")
+  title MySQL test
+  link(rel="stylesheet", href="/css/default.css")
+  style.
+    .article {
+      margin-left:10%;
+      margin-right:5%;
+    }
+body
+  h1 MySQL test
+  div.menubar
+    ul
+      li(style="display:inline;")
+         a(href="/") HOME
+  br
+  table
+    tr
+       th databse
+       th name
+       th engine
+       th rows
+       th created
+    each row in results
+      tr
+        td= row["database"]
+        td= row["name"]
+        td= row["engine"]
+        td= row["rows"]
+        td= row["created"]
+  p &nbsp;
+  p &nbsp;

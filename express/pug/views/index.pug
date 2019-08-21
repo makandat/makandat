@@ -1,0 +1,30 @@
+doctype html
+html
+  meta(charset="utf-8")
+  title ホーム (pug)
+  link(rel="stylesheet", href="/css/default.css")
+  style.
+    .article {
+      margin-left:10%;
+      margin-right:5%;
+    }
+body
+  h1 ホーム (pug)
+  br
+  div.article
+    h2 config.ini
+    ul
+      li= "host = " + host
+      li= "db = " + db
+  br
+  div.article
+    h2 test
+    ul
+      li
+        a(href="/about") About ..
+      li
+        a(href="/mysql/m_tables") MySQL test (SELECT)
+      li
+        a(href="/ins_asset") MySQL test (INSERT)
+    
+

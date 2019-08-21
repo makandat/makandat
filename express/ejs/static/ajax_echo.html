@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ <title>Ajax Echo</title>
+ <meta http-equiv="Access-Control-Allow-Origin" content="http://localhost" />
+ <link rel="stylesheet" href="/css/style.css" />
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+ <style>
+  .form_row {
+     margin-top:4px;
+   }
+  input[type="button"] {
+     height: 32px;
+     background-color: #ADD8E6;
+     border-radius: 4px;
+   }
+ </style>
+</head>
+
+<body>
+ <h1>Ajax Echo</h1>
+ <div class="menubar"><a href="/">HOME</a></div>
+ <br />
+ <div id="app">
+  <div style="margin-left:20%;">Message: <input type="text" v-model="echo" />&nbsp;<input type="button" value="submit" v-on:click="submit_click" /></div>
+  <br />
+  <p v-text="message" class="message"></p>
+ </div>
+ <script>
+  var app = new Vue({
+    el: "#app",
+    data: {
+      echo: "",
+      message: ""
+    },
+    methods: {
+      submit_click: ()=>{
+        if (app.echo == "") {
+          alert("Enter message.");
+          return;
+        }
+        $.get("/ajax/echo", {"echo":app.echo}, (data)=>{
+          app.message = data;
+        });
+      }
+    }
+  }); 
+ </script>
+  </body>
+</html>
